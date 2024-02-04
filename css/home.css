@@ -1,0 +1,250 @@
+body {
+  font-family: arial;
+  color: white;
+}
+.main {
+  width: 100%;
+}
+.back {
+  position: absolute;
+}
+.div1 {
+  position: absolute;
+  margin-top: 0%;
+  color: rgb(255, 255, 255);
+  height: 200px;
+  width: 50%;
+  float: left;
+  margin: 0px 0px 0px 760px;
+}
+.div2 {
+  margin-top: 0%;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  height: 200px;
+  width: 50%;
+  float: right;
+}
+.bar1 {
+  list-style: none;
+  display: flex;
+  gap: 100px;
+  padding: 10px 0px 0px 280px;
+}
+.bar2 {
+  list-style: none;
+  display: flex;
+  gap: 100px;
+  padding: 10px 0px 0px 50px;
+}
+.txt {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  transition: 0.5s ease;
+}
+
+ul:hover li a {
+  color: aqua;
+}
+
+ul:hover li a:not(:hover) {
+  color: rgb(255, 255, 255);
+  opacity: 0.3;
+  filter: blur(1px);
+}
+.cri {
+  position: absolute;
+  margin: 30px 0px 0px 690px;
+  color: rgb(20, 18, 18);
+  font-size: 28px;
+  font-weight: 600;
+  border: 2px solid transparent;
+  box-sizing: border-box;
+  border-color: rgb(255, 255, 255);
+  padding: 5px 15px 5px 15px;
+}
+.head {
+  position: absolute;
+  margin: 250px 0px 0px 520px;
+  color: rgb(19, 2, 2);
+  font-size: 28px;
+  font-weight: 600;
+  border: 2px solid transparent;
+  box-sizing: border-box;
+  border-color: rgb(255, 255, 255);
+  padding: 5px 15px 5px 15px;
+}
+.info {
+  position: absolute;
+  margin: 350px 0px 0px 400px;
+  font-weight: 100;
+}
+.midd {
+  background-color: black;
+  color: white;
+  height: 360px;
+  width: 100%;
+  position: absolute;
+  margin-top: 736px;
+}
+.foot {
+  background-color: white;
+  color: rgb(255, 255, 255);
+  height: 500px;
+  width: 100%;
+  position: absolute;
+  margin-top: 1090px;
+}
+.middinfo {
+  position: absolute;
+  color: white;
+  margin: 810px 0px 0px 250px;
+  text-align: center;
+}
+.foothd {
+  font-size: 40px;
+  font-weight: 600;
+  margin: 0px 0px 0px 400px;
+}
+.button {
+  position: absolute;
+  background-color: rgb(79, 165, 245);
+  padding: 10px 5px 10px 5px;
+  width: 110px;
+  text-align: center;
+  margin: 990px 0px 0px 690px;
+}
+.button:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(8, 152, 255);
+}
+.criinfo {
+  position: absolute;
+  color: #827e7e;
+  padding: 25px 0px 0px 280px;
+}
+.serv {
+  position: absolute;
+  margin: 1160px 0px 0px 660px;
+  color: black;
+  font-size: 30px;
+  font-weight: 600;
+  border: 2px solid transparent;
+  box-sizing: border-box;
+  border-color: black;
+  padding: 5px 15px 5px 15px;
+}
+.servext {
+  position: absolute;
+  width: 100%;
+  margin: 1400px 0px 0px 10px;
+}
+.foot3 {
+  position: absolute;
+  height: 550px;
+  width: 33.33%;
+  float: right;
+  margin: 1230px 0px 0px 0px;
+  padding-top: 50px;
+}
+.foot4 {
+  position: absolute;
+  height: 550px;
+  width: 33.33%;
+  float: right;
+  margin: 1230px 0px 0px 506px;
+  padding-top: 50px;
+}
+.foot5 {
+  position: absolute;
+  height: 550px;
+  width: 33.33%;
+  float: right;
+  margin: 1230px 0px 0px 1012px;
+  padding-top: 50px;
+}
+.serin {
+  color: rgb(0, 0, 0);
+  position: absolute;
+  margin: 50px 0px 0px 150px;
+}
+.ser11 {
+  font-weight: 600;
+  font-size: 28px;
+}
+.icons {
+  position: absolute;
+  margin: 0px 100px 60px 0px;
+}
+.get {
+  color: white;
+  background-color: rgb(79, 165, 245);
+  padding: 10px 15px 10px 15px;
+  position: absolute;
+  margin: 490px 0px 0px 650px;
+}
+.get:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(8, 152, 255);
+}
+#started {
+  margin: 490px 0px 0px 780px;
+}
+.cricketimg {
+  position: absolute;
+  margin: 140px 0px 0px 60px;
+}
+.teams {
+  position: absolute;
+  margin: 140px 0px 0px 60px;
+}
+.players {
+  position: absolute;
+  margin: 140px 0px 0px 60px;
+}
+.ply {
+  border-radius: 5px;
+}
+.learn {
+  position: absolute;
+  color: rgb(150, 150, 150);
+  margin: 550px 0px 0px 200px;
+  border: 2px solid transparent;
+  box-sizing: border-box;
+  border-color: rgb(150, 150, 150);
+  padding: 8px 15px 50px 35px;
+  text-decoration: none;
+}
+.xyz {
+  position: absolute;
+  font-size: 14px;
+  margin: 10px 0px 0px 50px;
+  color: #7f7c7c;
+}
+.zxy {
+  position: absolute;
+  text-align: center;
+  font-size: 14px;
+  margin: 430px 0px 0px 120px;
+  color: #7f7c7c;
+}
+.learn:hover {
+  color: rgb(255, 255, 255);
+  background-color: #7f7c7c;
+}
+.a4 {
+  text-decoration: none;
+  color: 7f7c7c;
+}
+.cricketimg:hover {
+  border: 2px solid Blue;
+  border-radius: 10px;
+  size: 10px;
+
+  box-shadow: 50px;
+}

@@ -1,0 +1,161 @@
+body {
+  font-family: arial;
+  color: white;
+}
+.div1 {
+  position: absolute;
+  margin-top: 0%;
+  color: rgb(255, 255, 255);
+  height: 200px;
+  width: 50%;
+  float: left;
+  margin: 0px 0px 0px 760px;
+}
+.div2 {
+  margin-top: 0%;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  height: 200px;
+  width: 50%;
+  float: right;
+}
+.bar1 {
+  list-style: none;
+  display: flex;
+  gap: 100px;
+  padding: 10px 0px 0px 280px;
+}
+.bar2 {
+  list-style: none;
+  display: flex;
+  gap: 100px;
+  padding: 10px 0px 0px 50px;
+}
+.txt {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  transition: 0.5s ease;
+}
+
+ul:hover li a {
+  color: aqua;
+}
+
+ul:hover li a:not(:hover) {
+  color: rgb(255, 255, 255);
+  opacity: 0.3;
+  filter: blur(1px);
+}
+.cri {
+  position: absolute;
+  margin: 30px 0px 0px 690px;
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+  font-weight: 600;
+  border: 2px solid transparent;
+  box-sizing: border-box;
+  border-color: rgb(255, 255, 255);
+  padding: 5px 15px 5px 15px;
+}
+.header {
+  background-color: black;
+  background-size: 1503px 200px;
+  height: 200px;
+  width: 100%;
+  margin-top: 0%;
+}
+.back {
+  position: absolute;
+  margin: 200px 0px 0px 0px;
+}
+.head {
+  position: absolute;
+  font-size: 80px;
+  margin: 300px 0px 0px 300px;
+  font-weight: 600;
+  column: white;
+}
+.li1 {
+  list-style: none;
+  font-weight: 600;
+  padding: 10px 0px 10px 0px;
+}
+.ul1 {
+  position: absolute;
+  font-size: 27px;
+  margin: 450px 0px 0px 900px;
+}
+.ul2 {
+  position: absolute;
+  font-size: 27px;
+  margin: 450px 0px 0px 400px;
+}
+.ind {
+  position: absolute;
+  column: white;
+  font-size: 80px;
+  margin: 280px 0px 0px 390px;
+  font-weight: 600;
+}
+.hd {
+  padding-top: 400px;
+}
+.a3 {
+  position: absolute;
+  margin: 400px 0px 0px 600px;
+  text-align: center;
+  font-size: 27px;
+}
+.foot {
+  background-color: black;
+  color: white;
+  width: 98.95%;
+  height: 300px;
+  position: absolute;
+  margin: 900px 0px 0px 0px;
+}
+.foot2 {
+  text-align: center;
+  margin: 140px 0px 0px 10px;
+  font-size: 24px;
+  font-family: Cambria;
+  font-weight: 500;
+}
+.socialm {
+  margin: 980px 0px 0px 100px;
+  position: absolute;
+}
+.socialm a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(147, 146, 146, 0.2);
+  margin: 0px 12px 5px 0px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: white;
+  transition: all 0.5s ease;
+}
+.socialm a:hover {
+  color: royalblue;
+  background-color: white;
+}
+.nik {
+  position: absolute;
+  margin: 958px 0px 0px 0px;
+}
+.nickn {
+  background-color: red;
+  position: absolute;
+  width: 230px;
+  text-align: center;
+  padding: 2px 0px 3px 0px;
+  border-radius: 8px;
+  margin: 20px 00px 10px 1150px;
+}
